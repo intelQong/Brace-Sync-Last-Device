@@ -1,0 +1,21 @@
+{
+  "name": "privacy-sync-web",
+  "version": "0.1.0",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "vite build",
+    "preview": "vite preview --host 0.0.0.0",
+    "lint": "node --check src/services/api.js && node --check src/services/storage.js && node --check src/services/firebase.js"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "^4.3.0",
+    "vite": "^5.4.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "firebase": "^10.13.0",
+    "@privacy-sync/shared": "file:../shared"
+  },
+  "devDependencies": {}
+}

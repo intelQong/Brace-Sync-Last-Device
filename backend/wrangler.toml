@@ -1,0 +1,11 @@
+name = "privacy-sync"
+main = "src/index.js"
+compatibility_date = "2026-06-05"
+
+[[durable_objects.bindings]]
+name = "SYNC_SESSIONS"
+class_name = "SyncSessionDurableObject"
+
+[[migrations]]
+tag = "v1"
+new_sqlite_classes = ["SyncSessionDurableObject"]

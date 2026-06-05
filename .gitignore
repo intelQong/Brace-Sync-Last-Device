@@ -1,0 +1,11 @@
+node_modules/
+dist/
+.vite/
+coverage/
+.env
+.env.*
+!.env.example
+.DS_Store
+wrangler/.dev.vars
+.firebase/
+.vercel/

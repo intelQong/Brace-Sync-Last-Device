@@ -1,0 +1,13 @@
+{
+  "name": "@privacy-sync/shared",
+  "version": "0.1.0",
+  "type": "module",
+  "main": "src/crypto.js",
+  "exports": {
+    ".": "./src/crypto.js"
+  },
+  "scripts": {
+    "test": "node --test test/*.test.js",
+    "lint": "node --check src/crypto.js"
+  }
+}
